@@ -1,0 +1,244 @@
+*{
+	padding: 0px;
+	margin: 0px; 
+	box-sizing: border-box;
+}
+body
+{
+	font-family: ;
+	font-size: 16px;
+}
+p
+{
+	letter-spacing: .9px;
+	line-height: 26px;
+	font-family: ;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-family: ;
+	font-weight: bold;
+}
+
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: none;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+	z-index: 99;
+}
+
+.bg-light {
+    background-color: #00000059 !important;
+}
+
+ul.navbar-nav li a.nav-link {
+    color: #ffffff !important;
+}
+ul.navbar-nav li a.nav-link:hover
+{
+	color: #1772a3 !important;
+}
+ul.navbar-nav li.active a.nav-link {
+    color: #1772a3 !important;
+    transition: all.3s;
+}
+.shrink
+{
+	background: #fff !important;
+}
+.shrink ul.navbar-nav li a.nav-link {
+    color: #222222 !important;
+}
+.shrink ul.navbar-nav li a.nav-link:hover, .shrink ul.navbar-nav li.active a.nav-link{
+    color: #1772a3 !important;
+}
+.banner_desc h1.title {
+    color: white;
+    font-size: xxx-large;
+}
+
+.banner_desc h2.themeline {
+    color: white;
+	font-size: x-large;
+}
+
+.banner
+{
+	position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(images/banner.jpg);
+    background-size: cover;
+    background-position: right center;
+	padding: 180px 0px;
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+a.btn 
+{
+    padding: 12px 30px;
+    background: #2d94fc;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid transparent;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+.btn-trans
+{	
+	background: transparent !important;	
+	border: 1px solid #ffffff !important;
+}
+.btn-color:hover {
+    background: transparent !important;
+    color: #fff;
+    border: 1px solid #fff !important;
+    transition: all .4s cubic-bezier(0.65, 0.05, 0.51, 0.67);
+}
+.btn-trans:hover{
+ background: #2d94fc !important;
+    color: #fff !important;
+    transition: all .4s cubic-bezier(0.65, 0.05, 0.51, 0.67);
+    border:1px solid transparent !important;
+}
+.motive
+{
+	background-color: #eaeaea;
+	height: 180px;
+	clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+}
+.mission
+{
+	text-align:center;
+	background-color: #eaeaea;
+	padding-top: 4%;
+}
+.mission h5.title
+{
+	color: #187bb0;
+}
+.mission p.themeline 
+{
+    font-weight: 700;
+    color: darkslategray;
+    font-size: xxx-large;
+}
+h5.title:before 
+{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #187bb0;
+    position: absolute;
+    left: 44%;
+    top: 63%;
+}
+h5.title:after
+{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #187bb0;
+    position: absolute;
+    left: 54%;
+    top: 63%;
+}
+h5 
+{
+    font-size: 14px;
+    color: #8e8e8e;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.aboutvishal
+{
+    text-align: justify;
+	    color: #4e4e4e;
+}
+.aboutcontent {
+    margin-top: 9%;
+}
+h1.blockhead {
+    color: #1b2635;
+}
+.upperfooter
+{
+	background-color: #2e2e2e;
+	margin-top:10px;
+	border-bottom: 1px white solid;
+}
+ul.frmenu {
+    padding: 0;
+}
+.frmenu li
+ {
+	list-style-type: none;
+    margin: 0;
+    font-size: 15px;
+    color: #c2bfbf;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-right: 50px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.frmenu a
+{
+	color:#c2bfbf;
+	text-decoration:none;
+}
+.frmenu a:hover
+{
+	color:orange;
+}
+h3 {
+    color: white;
+}
+.address
+{
+	color: #c2bfbf;
+}
+.logo {
+    padding-top: 4%;
+	padding-left:0%;
+}
+.footerbar
+{
+	background-color: #2e2e2e;
+}
+.copyright 
+{
+    color: #c2bfbf;
+    padding-top: 10px;
+}
+.hdicons .fa
+{
+	color:#c2bfbf;
+}
+.hdicons
+{
+	list-style-type:none;
+}
+.hdicons li
+{
+		display:inline;
+		margin-right:15px;
+}
+.hdicons a
+{
+	color:#c2bfbf;
+	text-decoration:none;
+}
+.icons {
+    padding-top: 10px;
+}
